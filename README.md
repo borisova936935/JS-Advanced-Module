@@ -1,2 +1,2 @@
 # JS-Advanced-Module
-SoftUni-Courses-JS-Advanced
+Uploading my homework from the Advanced module.
