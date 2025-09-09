@@ -4,8 +4,4 @@ function squareOfStars(count) {
     }
 }
 squareOfStars(3)
-
 squareOfStars(2)
-
-
-
