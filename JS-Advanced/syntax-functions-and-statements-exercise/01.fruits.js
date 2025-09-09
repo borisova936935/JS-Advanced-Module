@@ -1,6 +1,6 @@
-function fruits(fruit, grams, pricePerKilo) {
-    let pricePerGram = pricePerKilo / 1000
-    let money = pricePerGram * grams;
+function fruits(fruit, grams, pricePerGram) {
+    let pricePerKg = pricePerGram / 1000
+    let money = pricePerKg * grams;
     let weight = (grams/1000).toFixed(2)
     console.log(`I need $${money.toFixed(2)} to buy ${weight} kilograms ${fruit}.`);
 }
