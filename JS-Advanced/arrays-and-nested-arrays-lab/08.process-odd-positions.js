@@ -24,7 +24,7 @@ processOddPositions([3, 0, 10, 4, 7, 3])
 
 //.........................................
 
-const processOddPositions = (nums) => nums   //third way
+let processOddPositions = (nums) => nums   //third way
     .filter((x, i) => i % 2) //you can use _ instead of x in this case
     .map(x => x * 2)
     .reverse()

@@ -8,7 +8,7 @@ function deleteByEmail() {
     let found = false;
 
     for (const cell of tableCells) {
-        if (cell.textContent == email) {
+        if (cell.textContent == email) { 
             cell.parentElement.remove();
             found = true;
         }

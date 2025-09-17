@@ -7,8 +7,8 @@ function biggestElement(matrix) {
         }
     }
     result.sort((a, b) => b-a)
-    return result[0];
     // console.log(result[0]);
+    return result[0];
 }
 biggestElement([[20, 50, 10],
 [8, 33, 145]])

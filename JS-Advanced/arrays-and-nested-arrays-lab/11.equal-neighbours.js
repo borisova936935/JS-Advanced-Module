@@ -9,7 +9,7 @@ function equalNeighbors(matrix) {
         }
     }
     //column checker
-    const rowSize = matrix[0].length;
+    let rowSize = matrix[0].length;
 
     for (let colIndex = 0; colIndex < rowSize; colIndex++) {
         for (let rowIndex = 0; rowIndex < matrix.length - 1; rowIndex++) {

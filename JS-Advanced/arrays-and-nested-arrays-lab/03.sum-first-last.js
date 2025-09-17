@@ -10,7 +10,7 @@ sumFirstLast(['5', '10'])
 function sumFirstLast(numAsString) {   //second way
     let first = [...numAsString].shift();
     let last = [...numAsString].pop();
-    const result = Number(first) + Number(last);
+    let result = Number(first) + Number(last);
     console.log(result);
 }
 sumFirstLast(['20', '30', '40'])
